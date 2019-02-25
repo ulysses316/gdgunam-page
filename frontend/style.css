@@ -1,8 +1,11 @@
 .titulo-hackaton{
-    background: linear-gradient(to right, yellow, orange);
+    background: linear-gradient(to top, #fdc202, #f94c41);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display: inline;
+    width: 142.9px;
+    height: 14.9px;
+    
 }
 
 .card-grid{
@@ -13,11 +16,45 @@
 .redes{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 101px;
+}
+
+.calendar{
+    height: 100vh;
 }
 
 .calendario-grid{
     display:grid;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 1fr 6fr;
+    width: 72.6%;
+    height: 86.6%;
+}
+
+@media only screen and (max-width: 600px) {
+    .calendario-grid{
+        width: 100%;
+    }
+
+    .redes{
+        display:grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        height: 101px;
+    }
+}
+
+.semanas{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr repeat(5, 3fr);
+}
+
+.semanas span{
+    text-align: center;
 }
 
 .cuadicula-dias{
@@ -28,14 +65,14 @@
 }
 .logo {
     width: 100%;
-    height: 600px;
+    height: 100vh;
     text-align: center;
     background: rgb(47, 237, 113);
     background: -moz-linear-gradient(-45deg, rgba(47, 237, 113, 1) 0%, rgba(125, 185, 232, 1) 100%);
     background: -webkit-linear-gradient(-45deg, rgba(47, 237, 113, 1) 0%, rgba(125, 185, 232, 1) 100%);
     background: linear-gradient(135deg, rgba(47, 237, 113, 1) 0%, rgba(125, 185, 232, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2fed71', endColorstr='#7db9e8', GradientType=1);
-}
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2fed71', endColorstr='#7db9e8', GradientType=1); 
+} 
 
 .imagen {
     width: 200px;
@@ -56,3 +93,9 @@
     margin-top: 2%;
     margin-right: 7%;
 }
+
+#container{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+

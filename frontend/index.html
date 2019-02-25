@@ -16,131 +16,183 @@
 </head>
 
 <body>
-    <header class="logo">
-        <nav class="uk-navbar-container  uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-right">
+    <div id="container">
+        <header class="logo">
+            <nav class="uk-navbar-container  uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-right">
 
-                <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">Nosotros</a></li>
-                    <li class="uk-active"><a href="#">Meet ups</a></li>
-                    <li class="uk-active"><a href="#">Hacks</a></li>
-                </ul>
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#nosotros">Nosotros</a></li>
+                        <li class="uk-active"><a href="#meetups">Meet ups</a></li>
+                        <li class="uk-active"><a href="#hacks">Hacks</a></li>
+                    </ul>
 
+                </div>
+            </nav>
+
+            <div class="mensajes">
+                <h4>Mensajes</h4>
             </div>
-        </nav>
-
-        <div class="mensajes">
-            <h4>Mensajes</h4>
-        </div>
-
-        <div>
-            <img class="imagen" src="./DDOcKUNU_400x400.jpg" alt="">
-        </div>
-        <button class="unete uk-button uk-button-primary  uk-button-small">Unete a la comunidad</button>
-
-
-
-
-
-    </header>
-    <section class="info uk-container uk-container-expand">
-        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
 
             <div>
-                <h3>¿Quienes somos?</h3>
-                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
+                <img class="imagen" src="./DDOcKUNU_400x400.jpg" alt="">
             </div>
-            <div>
-                <h3>Nuestra Comunidad</h3>
-                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
-            </div>
+            <button class="unete uk-button uk-button-primary  uk-button-small">Unete a la comunidad</button>
 
-        </div>
 
-        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
 
-            <div>
-                <h3>¿Cuando nos reunimos?</h3>
-                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
-            </div>
-            <div>
-                <h3>¿Dudas?¡Contactanos!</h3>
-                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
-            </div>
 
-        </div>
-    </section>
-    <section class="calendar"></section>
-    <section class="hackaton"></section>
-    <footer class="redes"></footer>
 
-    <section class="info"></section>
-    <section class="calendar">
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-            <div class="calendario-grid">
+        </header>
+        <section id="nosotros" class="info uk-container uk-container-expand">
+            <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
 
-            </div>
-        </div>
-    </section>
-
-    <section class="hackaton uk-container">
-        <div class="uk-flex">
-            <div style="width:100vw;" class=" uk-text-center ">
-                <div><i>Rombo</i></div>
                 <div>
-                    <h4 class="titulo-hackaton"><strong>HACKATONES</strong></h4>
+                    <h3>¿Quienes somos?</h3>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
                 </div>
-                <p>¡No te pierdas ningún próximo Hack!</p>
+                <div>
+                    <h3>Nuestra Comunidad</h3>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+
             </div>
 
-        </div>
-        <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body">
-                    <div class="card-grid">
-                        <div>CIRCLE</div>
-                        <div>
-                            <h5>LOCAL HACK DAY</h5>
-                            <p> Proin ac iaculis mi. In hac habitasse platea
-                                dictumst. In hac habitasse platea dictumst.</p>
+            <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+
+                <div>
+                    <h3>¿Cuando nos reunimos?</h3>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+                <div>
+                    <h3>¿Dudas?¡Contactanos!</h3>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="meetups" class="calendar uk-container">
+            <div class="uk-card uk-card-default uk-card-body">
+                <div class="calendario-grid">
+                    <div class="mes">
+                        <div class="uk-text-center">
+                            <span>Enero</span>
+                            <span>2019</span>
+                        </div>
+                    </div>
+                    <div class="semanas">
+                        <!-- dias -->
+                        <span>MO</span>
+                        <span>TU</span>
+                        <span>WE</span>
+                        <span>TU</span>
+                        <span>FR</span>
+                        <span>SA</span>
+                        <span>SU</span>
+                        <!-- dias -->
+                        <!-- dias semana -->
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                        <span>11</span>
+                        <span>12</span>
+                        <span>13</span>
+                        <span>14</span>
+                        <span>15</span>
+                        <span>16</span>
+                        <span>17</span>
+                        <span>18</span>
+                        <span>19</span>
+                        <span>20</span>
+                        <span>21</span>
+                        <span>22</span>
+                        <span>23</span>
+                        <span>24</span>
+                        <span>25</span>
+                        <span>26</span>
+                        <span>27</span>
+                        <span>28</span>
+                        <span>29</span>
+                        <span>30</span>
+                        <span>31</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <!-- dias semana -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hacks" class="hackaton uk-container">
+            <div class="uk-flex">
+                <div style="width:100vw;" class=" uk-text-center ">
+                    <div><i>Rombo</i></div>
+                    <div>
+                        <h4 class="titulo-hackaton"><strong>HACKATONES</strong></h4>
+                    </div>
+                    <p>¡No te pierdas ningún próximo Hack!</p>
+                </div>
+
+            </div>
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="card-grid">
+                            <div>CIRCLE</div>
+                            <div>
+                                <h5>LOCAL HACK DAY</h5>
+                                <p> Proin ac iaculis mi. In hac habitasse platea
+                                    dictumst. In hac habitasse platea dictumst.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="card-grid">
+                            <div>CIRCLE</div>
+                            <div>
+                                <h5>LOCAL HACK DAY</h5>
+                                <p> Proin ac iaculis mi. In hac habitasse platea
+                                    dictumst. In hac habitasse platea dictumst.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body">
-                    <div class="card-grid">
-                        <div>CIRCLE</div>
-                        <div>
-                            <h5>LOCAL HACK DAY</h5>
-                            <p> Proin ac iaculis mi. In hac habitasse platea
-                                dictumst. In hac habitasse platea dictumst.</p>
-                        </div>
-                    </div>
-                </div>
+        </section>
+        <footer class="redes">
+            <div class="uk-text-center">
+                <span>© 2019 - All rights reserved</span>
             </div>
-        </div>
-    </section>
-    <footer class="redes">
-        <div class="uk-text-center">
-            <p>© 2019 - All rights reserved</p>
-        </div>
-        <div class="uk-text-center">
-            <i>Faceook</i>
-            <i>Github</i>
-            <i>Instagram</i>
-            <i>Twitter</i>
-        </div>
-        <div class="uk-text-center">
-            <span>Terms of use</span>
-            <span>Privacy Policy</span>
-        </div>
-    </footer>
+            <div class="uk-text-center">
+                <a href="https://www.facebook.com/GDGUNAM/" target="blank"><img src="../img/facebook.png" alt="Facebook"></a>
+                <a href="https://github.com/GDG-UNAM" target="blank"><img src="../img/github.png" alt="Github"></a>
+                <a href="https://www.instagram.com/gdgunam/" target="blank"><img src="../img/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/GDGUNAM" target="blank"><img src="../img/twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="uk-text-center">
+                <span>Terms of use</span>
+                <span>Privacy Policy</span>
+            </div>
+        </footer>
 
+
+    </div>
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
