@@ -1,3 +1,19 @@
+.bold{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.semi-bold{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600
+}
+
+.regular{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #6b7c93;
+}
+
 .titulo-hackaton{
     background: linear-gradient(to top, #fdc202, #f94c41);
     -webkit-text-fill-color: transparent;
@@ -6,6 +22,10 @@
     width: 142.9px;
     height: 14.9px;
     
+}
+
+.hackaton{
+    height: 70vh;
 }
 
 .card-grid{
@@ -20,7 +40,10 @@
     align-items: center;
     height: 101px;
 }
-
+.calendario-boton{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
 .calendar{
     height: 100vh;
 }
@@ -28,7 +51,6 @@
 .calendario-grid{
     display:grid;
     grid-template-rows: 1fr 6fr;
-    width: 72.6%;
     height: 86.6%;
 }
 
@@ -45,6 +67,22 @@
         align-items: center;
         height: 101px;
     }
+
+    .hackaton{
+        height: 100%;
+    }
+
+    .calendario-boton{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .calendar{
+        height: 100%;
+    }
+
+    
 }
 
 .semanas{
@@ -67,11 +105,6 @@
     width: 100%;
     height: 100vh;
     text-align: center;
-    background: rgb(47, 237, 113);
-    background: -moz-linear-gradient(-45deg, rgba(47, 237, 113, 1) 0%, rgba(125, 185, 232, 1) 100%);
-    background: -webkit-linear-gradient(-45deg, rgba(47, 237, 113, 1) 0%, rgba(125, 185, 232, 1) 100%);
-    background: linear-gradient(135deg, rgba(47, 237, 113, 1) 0%, rgba(125, 185, 232, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2fed71', endColorstr='#7db9e8', GradientType=1); 
 } 
 
 .imagen {
@@ -99,3 +132,19 @@
     scroll-behavior: smooth;
 }
 
+#logo-meetup{
+    width: 80%;
+}
+
+body{
+    background: linear-gradient(to right, #29a159, #2e80c2);
+}
+
+footer{
+    background: #FFFFFF;
+    margin-top: 25px;
+}
+
+.card{
+    border-radius: 40px;
+}
