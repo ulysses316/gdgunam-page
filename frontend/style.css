@@ -106,15 +106,19 @@
     width: 228px;
     height: 228px;
     object-fit: contain;
-    /* padding-left: 15px; */
 }
 
 .mensajes {
-    float: right;
     width: 90px;
     height: 63px;
     opacity: 0.35;
     border-radius: 100px 0 0 100px;
+    background-color: #ffffff;
+}
+
+.Shape {
+    width: 63px;
+    height: 55px;
     background-color: #ffffff;
 }
 
