@@ -1,150 +1,150 @@
-.bold{
+.bold {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
 }
 
-.semi-bold{
+.semi-bold {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600
 }
 
-.regular{
+.regular {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     color: #6b7c93;
 }
 
-.titulo-hackaton{
+.titulo-hackaton {
     background: linear-gradient(to top, #fdc202, #f94c41);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display: inline;
     width: 142.9px;
     height: 14.9px;
-    
 }
 
-.hackaton{
+.hackaton {
     height: 70vh;
 }
 
-.card-grid{
+.card-grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
 
-.redes{
-    display:grid;
+.redes {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     height: 101px;
 }
-.calendario-boton{
+
+.calendario-boton {
     display: grid;
     grid-template-columns: 8fr 2fr;
 }
-.calendar{
+
+.calendar {
     height: 100vh;
 }
 
-.calendario-grid{
-    display:grid;
+.calendario-grid {
+    display: grid;
     grid-template-rows: 1fr 6fr;
     height: 86.6%;
 }
 
 @media only screen and (max-width: 600px) {
-    .calendario-grid{
+    .calendario-grid {
         width: 100%;
     }
-
-    .redes{
-        display:grid;
+    .redes {
+        display: grid;
         grid-template-columns: none;
         grid-template-rows: repeat(3, 1fr);
         justify-content: center;
         align-items: center;
         height: 101px;
     }
-
-    .hackaton{
+    .hackaton {
         height: 100%;
     }
-
-    .calendario-boton{
+    .calendario-boton {
         display: grid;
         grid-template-columns: none;
         grid-template-rows: 2fr 1fr;
     }
-
-    .calendar{
+    .calendar {
         height: 100%;
     }
-
-    
 }
 
-.semanas{
+.semanas {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr repeat(5, 3fr);
 }
 
-.semanas span{
+.semanas span {
     text-align: center;
 }
 
-.cuadicula-dias{
+.cuadicula-dias {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
-    grid-template-rows: repeat(6,1fr);
-
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
+
 .logo {
     width: 100%;
     height: 100vh;
     text-align: center;
-} 
+}
 
-.imagen {
-    width: 200px;
-    height: 200px;
-    margin-top: 10%;
-    border-radius: 10%;
+.LOGO_futura_GDG_UNAM {
+    width: 228px;
+    height: 228px;
+    object-fit: contain;
+    /* padding-left: 15px; */
 }
 
 .mensajes {
     float: right;
-    background-color: rgba(0, 0, 0, 0.233);
-    margin-top: 10%;
-    border-radius: 40% 0% 0% 40%;
+    width: 90px;
+    height: 63px;
+    opacity: 0.35;
+    border-radius: 100px 0 0 100px;
+    background-color: #ffffff;
 }
 
 .unete {
-    text-align: center;
-    margin-top: 2%;
-    margin-right: 7%;
+    width: 204px;
+    height: 39px;
+    border-radius: 13px;
+    box-shadow: 0 2px 4px 0 rgba(100, 100, 100, 0.5);
+    background-color: #ffffff;
+    margin: 35px;
 }
 
-#container{
+#container {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
-#logo-meetup{
+#logo-meetup {
     width: 80%;
 }
 
-body{
+body {
     background: linear-gradient(to right, #29a159, #2e80c2);
 }
 
-footer{
+footer {
     background: #FFFFFF;
     margin-top: 25px;
 }
 
-.card{
+.card {
     border-radius: 40px;
 }
