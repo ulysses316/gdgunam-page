@@ -1,3 +1,7 @@
+.white-text{
+    color:#FFFFFF !important;
+}
+
 .bold {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -23,9 +27,9 @@
     height: 14.9px;
 }
 
-.hackaton {
+/* .hackaton {
     height: 70vh;
-}
+} */
 
 .card-grid {
     display: grid;
@@ -46,12 +50,12 @@
 }
 
 .calendar {
-    height: 100vh;
+    margin-bottom: 50px;
 }
 
 .calendario-grid {
     display: grid;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr;
     height: 86.6%;
 }
 
@@ -151,4 +155,22 @@ footer {
 
 .card {
     border-radius: 40px;
+}
+
+
+.circulo{
+    border-radius: 100px;
+}
+
+.eventos-card{
+    padding-left: 15px;
+}
+.eventos-card h5{
+    margin-top: 15px;
+}
+
+
+.hackaton-hacks:last-child{
+    margin-bottom: 110px;
+    margin-top: 60px;
 }
