@@ -18,24 +18,22 @@
 
 <body>
 
-    <!-- <div id="particles-js"></div> -->
+    <!-- NAVBAR -->
+    <nav class="uk-navbar-container" uk-navbar id="navbar">
+        <div class="uk-navbar-right">
 
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#nosotros" uk-scroll class="regular">Nosotros</a></li>
+                <li class="uk-active"><a href="#meetups" uk-scroll class="regular">Meet ups</a></li>
+                <li class="uk-active"><a href="#hacks" uk-scroll class="regular">Hacks</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
 
     <div id="container">
-        <header class="logo" id="particles-js">
-            <nav class="uk-navbar-container  uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-right">
-
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#nosotros" uk-scroll class="regular">Nosotros</a></li>
-                        <li class="uk-active"><a href="#meetups" uk-scroll class="regular">Meet ups</a></li>
-                        <li class="uk-active"><a href="#hacks" uk-scroll class="regular">Hacks</a></li>
-                    </ul>
-
-                </div>
-            </nav>
-
-
+        <header class="logo">
             <div align="right">
                 <div>
                     <img src="../img/message.png">
@@ -79,7 +77,7 @@
             </div>
         </section>
 
-        <section id="meetups" class="calendar uk-container">
+        <section id="meetups" class="calendar uk-container no-particles">
             <div class="uk-card uk-card-default uk-card-body card">
                 <div class="calendario-boton">
                     <div class="calendario-grid">
@@ -150,7 +148,7 @@
             </div>
         </section>
 
-        <section id="hacks" class="hackaton uk-container">
+        <section id="hacks" class="hackaton uk-container no-particles">
             <div class="uk-flex  hackaton-rombo">
                 <!--  50 - 60  110-->
                 <div style="width:100vw;" class=" uk-text-center ">
@@ -201,6 +199,8 @@
                 <span class="regular">Privacy Policy</span>
             </div>
         </footer>
+
+        <div id="particles-js"></div>
         <!-- UIkit JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
