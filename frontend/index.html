@@ -14,19 +14,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
-</head>
+</head>|
 
 <body>
-    <div id="particles-js"></div>
+
+    <!-- <div id="particles-js"></div> -->
+
+
     <div id="container">
-        <header class="logo">
+        <header class="logo" id="particles-js">
             <nav class="uk-navbar-container  uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-right">
 
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#nosotros" class="regular">Nosotros</a></li>
-                        <li class="uk-active"><a href="#meetups" class="regular">Meet ups</a></li>
-                        <li class="uk-active"><a href="#hacks" class="regular">Hacks</a></li>
+                        <li class="uk-active"><a href="#nosotros" uk-scroll class="regular">Nosotros</a></li>
+                        <li class="uk-active"><a href="#meetups" uk-scroll class="regular">Meet ups</a></li>
+                        <li class="uk-active"><a href="#hacks" uk-scroll class="regular">Hacks</a></li>
                     </ul>
 
                 </div>
@@ -148,23 +151,23 @@
         </section>
 
         <section id="hacks" class="hackaton uk-container">
-            <div class="uk-flex">
+            <div class="uk-flex  hackaton-rombo">
+                <!--  50 - 60  110-->
                 <div style="width:100vw;" class=" uk-text-center ">
-                    <div><i>Rombo</i></div>
                     <div>
-                        <h4 class="titulo-hackaton"><strong>HACKATONES</strong></h4>
+                        <img src="../img/HACKATONES.png" alt="">
                     </div>
-                    <p class="regular">¡No te pierdas ningún próximo Hack!</p>
+                    <p class="regular white-text">¡No te pierdas ningún próximo Hack!</p>
                 </div>
 
             </div>
-            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match hackaton-hacks" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body card">
                         <div class="card-grid">
-                            <div>CIRCLE</div>
-                            <div>
-                                <h5 class="bold uk-text-success">LOCAL HACK DAY</h5>
+                            <div class="uk-flex uk-flex-middle"><img class="circulo" src="../img/mxhacks.jpeg" alt=""></div>
+                            <div class="eventos-card">
+                                <h5 class="bold uk-text-success">MX HACKS</h5>
                                 <p class="regular"> Proin ac iaculis mi. In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>
@@ -173,8 +176,8 @@
                 <div>
                     <div class="uk-card uk-card-default uk-card-body card">
                         <div class="card-grid">
-                            <div>CIRCLE</div>
-                            <div>
+                            <div class="uk-flex uk-flex-middle"> <img src="../img/local.jpg" alt=""> </div>
+                            <div class="eventos-card">
                                 <h5 class="bold uk-text-success">LOCAL HACK DAY</h5>
                                 <p class="regular"> Proin ac iaculis mi. In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>
                             </div>
@@ -198,15 +201,20 @@
                 <span class="regular">Privacy Policy</span>
             </div>
         </footer>
-    </div>
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
 
 
-    <!-- scripts -->
-    <script src="../particles.js"></script>
-    <script src="js/app.js"></script>
+        <!-- scripts -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <!-- <script src="js/app.js"></script> -->
+
+
+        <!-- particlesjs -->
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="../js/particles.js"></script>
 
 </body>
 
