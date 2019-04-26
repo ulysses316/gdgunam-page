@@ -174,3 +174,29 @@ footer {
     margin-bottom: 110px;
     margin-top: 60px;
 }
+
+
+/* Seccion de los calendarios */
+/* 
+
+.calendario-boton {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+.calendar {
+    margin-bottom: 50px;
+}
+
+.calendario-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 86.6%;
+} 
+
+*/
+
+.calendario-dis{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
