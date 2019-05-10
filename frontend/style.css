@@ -148,3 +148,13 @@ footer {
 .card {
     border-radius: 40px;
 }
+.nosotros {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nosotros-card {
+    height: 902px;
+}
