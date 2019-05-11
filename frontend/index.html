@@ -17,25 +17,27 @@
 </head>
 
 <body>
-    <div id="container">
         <header class="logo">
             <nav class="uk-navbar-container  uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-right">
 
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#nosotros" class="regular">Nosotros</a></li>
-                        <li class="uk-active"><a href="#meetups" class="regular">Meet ups</a></li>
-                        <li class="uk-active"><a href="#hacks" class="regular">Hacks</a></li>
+                        <li class="uk-active"><a href="#nosotros" uk-scroll class="regular">Nosotros</a></li>
+                        <li class="uk-active"><a href="#meetups" uk-scroll class="regular">Meet ups</a></li>
+                        <li class="uk-active"><a href="#hacks" uk-scroll class="regular">Hacks</a></li>
                     </ul>
 
                 </div>
             </nav>
 
-            <div class="mensajes">
-                <h4>Mensajes</h4>
+            <div align="right">
+                <div class="mensajes">
+                    <img class="Shape" src="../img/correo.png">
+                </div>
             </div>
 
             <div>
+
                 <img src="../img/logo-futura-gdg-unam.png" class="LOGO_futura_GDG_UNAM">
             </div>
             <button class="unete uk-button uk-button-primary uk-button-small semi-bold uk-text-success">Unete a la comunidad</button>
@@ -86,7 +88,7 @@
 
         <section id="meetups" class="calendar uk-container">
             <div class="uk-card uk-card-default uk-card-body card">
-                <div class="calendario-boton">
+                <div class="calendario-boton ">
                     <div class="calendario-grid">
                         <div class="mes">
                             <div class="uk-text-center">
@@ -156,23 +158,22 @@
         </section>
 
         <section id="hacks" class="hackaton uk-container">
-            <div class="uk-flex">
+             <div class="uk-flex  hackaton-rombo">  <!--  50 - 60  110-->
                 <div style="width:100vw;" class=" uk-text-center ">
-                    <div><i>Rombo</i></div>
                     <div>
-                        <h4 class="titulo-hackaton"><strong>HACKATONES</strong></h4>
+                        <img src="../img/HACKATONES.png" alt="">
                     </div>
-                    <p class="regular">¡No te pierdas ningún próximo Hack!</p>
+                    <p class="regular white-text">¡No te pierdas ningún próximo Hack!</p>
                 </div>
 
             </div>
-            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match hackaton-hacks" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body card">
                         <div class="card-grid">
-                            <div>CIRCLE</div>
-                            <div>
-                                <h5 class="bold uk-text-success">LOCAL HACK DAY</h5>
+                            <div class="uk-flex uk-flex-middle"><img class="circulo" src="../img/mxhacks.jpeg" alt=""></div>
+                            <div class="eventos-card">
+                                <h5 class="bold uk-text-success">MX HACKS</h5>
                                 <p class="regular"> Proin ac iaculis mi. In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>
@@ -181,8 +182,8 @@
                 <div>
                     <div class="uk-card uk-card-default uk-card-body card">
                         <div class="card-grid">
-                            <div>CIRCLE</div>
-                            <div>
+                            <div class="uk-flex uk-flex-middle"> <img  src="../img/local.jpg" alt=""> </div>
+                            <div class="eventos-card">
                                 <h5 class="bold uk-text-success">LOCAL HACK DAY</h5>
                                 <p class="regular"> Proin ac iaculis mi. In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>
                             </div>
@@ -206,7 +207,6 @@
                 <span class="regular">Privacy Policy</span>
             </div>
         </footer>
-    </div>
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>

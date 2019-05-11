@@ -1,3 +1,7 @@
+.white-text{
+    color:#FFFFFF !important;
+}
+
 .bold {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -23,9 +27,9 @@
     height: 14.9px;
 }
 
-.hackaton {
+/* .hackaton {
     height: 70vh;
-}
+} */
 
 .card-grid {
     display: grid;
@@ -46,12 +50,12 @@
 }
 
 .calendar {
-    height: 100vh;
+    margin-bottom: 50px;
 }
 
 .calendario-grid {
     display: grid;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr;
     height: 86.6%;
 }
 
@@ -106,15 +110,19 @@
     width: 228px;
     height: 228px;
     object-fit: contain;
-    /* padding-left: 15px; */
 }
 
 .mensajes {
-    float: right;
     width: 90px;
     height: 63px;
     opacity: 0.35;
     border-radius: 100px 0 0 100px;
+    background-color: #ffffff;
+}
+
+.Shape {
+    width: 63px;
+    height: 55px;
     background-color: #ffffff;
 }
 
@@ -157,4 +165,47 @@ footer {
 
 .nosotros-card {
     height: 902px;
+
+
+.circulo{
+    border-radius: 100px;
+}
+
+.eventos-card{
+    padding-left: 15px;
+}
+.eventos-card h5{
+    margin-top: 15px;
+}
+
+
+.hackaton-hacks:last-child{
+    margin-bottom: 110px;
+    margin-top: 60px;
+}
+
+
+/* Seccion de los calendarios */
+/* 
+
+.calendario-boton {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+.calendar {
+    margin-bottom: 50px;
+}
+
+.calendario-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 86.6%;
+} 
+
+*/
+
+.calendario-dis{
+    display: grid;
+    grid-template-columns: 1fr ;
 }
